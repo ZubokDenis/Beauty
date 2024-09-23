@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header-top{
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.top-menu{
+    display: flex;
+    
+}
+.top-menu>li{
+    margin-right: 30px;
+}
+.top-menu>li:last-child{
+    margin-right: 0;
+}
+.top-menu>li>a{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--dark);
+}
+.tel{
+    
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.recall{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    border: 2px solid #66c05d;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    margin-left: 40px;
+}
+.medium{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-medium{
+    border-bottom: 1px solid #efefef;
+
+}
+.bottom-menu{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.bottom-menu>li{
+    margin-right: 40px;
+}
+.bottom-menu>li:last-child{
+    margin-right: 0;
+}
+.bottom-menu>li>a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.banner{
+    background: url('../img/banner.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.banner-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    max-width: 308px;
+    margin-bottom: 50px;
+}
+.banner-btn{
+    border: 2px solid #fff;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background: #66c05d;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    }
