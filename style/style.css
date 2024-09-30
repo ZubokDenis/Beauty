@@ -252,3 +252,47 @@ h1{
     border-radius: 30px;
     background: #66c05d;
 }
+.top{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.footer-soc{
+    display: flex;
+}
+.footer-soc>li{
+    margin-right: 20px;
+}
+.footer-soc>li:last-child{
+    margin-right: 0;
+}
+.top>p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-bottom{
+    background: #efefef;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom>a{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+    color: #828282;
+}
+.bottom>p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+}
